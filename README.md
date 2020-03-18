@@ -1,4 +1,4 @@
-# _[Best Restaurants](https://github.com/TSiu88/#)_
+# _[Best Restaurants](https://github.com/KristaRutz/best-restaurants)_
 
 #### _Brief desc of Project, 03.18.2020_
 
@@ -6,9 +6,9 @@
 
 <!-- [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive) -->
 <!-- [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
-<!-- [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) -->
-![LastCommit](https://img.shields.io/github/last-commit/tsiu88/wordcounter-csharp)
-![Languages](https://img.shields.io/github/languages/top/tsiu88/wordcounter-csharp)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+![LastCommit](https://img.shields.io/github/last-commit/KristaRutz/best-restaurants)
+![Languages](https://img.shields.io/github/languages/top/KristaRutz/best-restaurants)
 [![MIT license](https://img.shields.io/badge/License-MIT-orange.svg)](https://lbesson.mit-license.org/)
 
 ---
@@ -22,10 +22,9 @@
 4. [Specifications](#specifications)
 5. [User Stories](#user-stories)
 6. [Screenshots](#screenshots)
-7. [Test Case Example](#test-case-example)
-8. [Known Bugs](#known-bugs)
-9. [Support and Contact Details](#support-and-contact-details)
-10. [License](#license)
+7. [Known Bugs](#known-bugs)
+8. [Support and Contact Details](#support-and-contact-details)
+9. [License](#license)
 ---
 ## Description
 
@@ -46,8 +45,8 @@ _README under construction_
 *This page may be viewed by:*
 
 1. Download and install .NET Core from the [official website](https://dotnet.microsoft.com/download/dotnet-core/)
-2. Clone the [repository](https://github.com/TSiu88/csharp-bakery.git) from my [GitHub page](https://github.com/TSiu88)
-3. Use a command line interface to move to the repository's directory with `cd project-directory`
+2. Clone the [repository](https://github.com/KristaRutz/best-restaurants.git) from my [GitHub page](https://github.com/KristaRutz)
+3. Use a command line interface to move to the repository's directory with `cd BestRestaurant`
 4. Run `dotnet restore` and `dotnet build` in command line interface of the repository's directory
 5. Run `dotnet run` to start up the program in the command line interface
 6. Type the URL listed under "Now listening on:" into a web browser 
@@ -97,7 +96,7 @@ _There are currently no known bugs in this program_
 
 ## Support and contact details
 
-_If there are any question or concerns please contact us at our emails: [Tiffany Siu](mailto:tsiu88@gmail.com) and [Krista Rutz](mailto:#). Thank you._
+_If there are any question or concerns please contact us at our emails: [Tiffany Siu](mailto:tsiu88@gmail.com) and [Krista Rutz](mailto:rutzkri000@gmail.com). Thank you._
 
 ### License
 
