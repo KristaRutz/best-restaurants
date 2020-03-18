@@ -6,11 +6,13 @@
 @model BestRestaurant.Models.Review
 
 <h4>Add a new review</h4>
-@using (Html.BeginForm("Create", "Reviews", FormMethod.Post, new {id = ViewBag.RestaurantId}))
+@using (Html.BeginForm())
 {
+    @Html.LabelFor(model => model.RestaurantId)
     @Html.HiddenFor(model => model.RestaurantId)
+
     @Html.HiddenFor(model => model.Restaurant)
-    <p>@Model.RestaurantId</p>
+
 
     @Html.LabelFor(model => model.Author)
     @Html.TextBoxFor(model => model.Author)

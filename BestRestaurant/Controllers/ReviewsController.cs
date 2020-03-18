@@ -31,7 +31,7 @@ namespace BestRestaurant.Controllers
     {
       _db.Reviews.Add(review);
       _db.SaveChanges();
-      return RedirectToAction("Details", "Restaurants", new {id = review.RestaurantId});
+      return RedirectToAction("Index", "Restaurants");
     }
 
     public ActionResult Edit(int id)
