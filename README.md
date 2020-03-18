@@ -97,12 +97,10 @@ _There are currently no known bugs in this program_
 
 ## Support and contact details
 
-_If there are any question or concerns please contact me at my [email](mailto:tsiu88@gmail.com). Thank you._
-
-<!-- _If there are any question or concerns please contact us at our emails: [Tiffany Siu](mailto:tsiu88@gmail.com) and [Name](mailto:#). Thank you._ -->
+_If there are any question or concerns please contact us at our emails: [Tiffany Siu](mailto:tsiu88@gmail.com) and [Krista Rutz](mailto:#). Thank you._
 
 ### License
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2020 **_Tiffany Siu_**
+Copyright (c) 2020 **_Tiffany Siu, Krista Rutz_**
