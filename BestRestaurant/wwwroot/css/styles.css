@@ -1,6 +1,20 @@
+/* body {
+  background: url("../img/restaurant.jpg") center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
 h1 {
   text-align: center;
   font-family: 'Pacifico', cursive;
+}
+
+h2, h3 {
+  font-family: 'Abel', sans-serif;
+}
+
+textarea {
+  vertical-align: top;
 }
 
 .container {
@@ -11,6 +25,7 @@ h1 {
   margin-top: 60px;
   min-height: 60vh;
   margin-bottom: 60px;
+
 }
 
 div#footer {
@@ -21,4 +36,5 @@ div#footer {
   color:#CCC;
   background:#333;
   padding:8px;
+  text-align: center;
 }

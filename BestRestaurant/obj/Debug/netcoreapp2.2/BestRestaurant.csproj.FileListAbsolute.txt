@@ -32,3 +32,7 @@
 /Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/BestRestaurant.dll
 /Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/BestRestaurant.pdb
 /Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/BestRestaurant.csproj.CopyComplete
+/Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/Razor/Views/Reviews/Create.g.cshtml.cs
+/Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/Razor/Views/Reviews/Delete.g.cshtml.cs
+/Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/Razor/Views/Reviews/Edit.g.cshtml.cs
+/Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/Debug/netcoreapp2.2/Razor/Views/Reviews/Index.g.cshtml.cs

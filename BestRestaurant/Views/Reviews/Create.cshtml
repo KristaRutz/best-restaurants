@@ -1,0 +1,30 @@
+@{
+  Layout = "_Layout";
+}
+
+@using BestRestaurant.Models
+@model BestRestaurant.Models.Review
+
+<h4>Add a new review</h4>
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.RestaurantId)
+    @Html.HiddenFor(model => model.Restaurant)
+
+    @Html.LabelFor(model => model.Author)
+    @Html.TextBoxFor(model => model.Author)
+    <br><br>
+
+    @Html.LabelFor(model => model.Comment)
+    @Html.TextAreaFor(model => model.Comment)
+    <br><br>
+
+    @Html.Label("Rating from 1-5 (with 5 as the highest)")
+    @Html.TextBoxFor(model => model.Rating, new { @type = "number"})
+    <br><br>
+
+    <input type="submit" value="Add new review" class="btn btn-default"/>
+}
+
+<p>@Html.ActionLink("Back to Restaurant Details", "Details", "Restaurants", new { id = ViewBag.RestaurantId})</p>
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>

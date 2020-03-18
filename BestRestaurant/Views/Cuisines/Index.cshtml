@@ -18,6 +18,7 @@
     <li>@Html.ActionLink($"{cuisine.Name}", "Details", new { id = cuisine.CuisineId })</li>
   }
 </ul>
-
-<p>@Html.ActionLink("Add new cuisine", "Create")</p>
-<p>@Html.ActionLink("Home", "Index", "Home")</p>
+<div id="footer">
+  <p>@Html.ActionLink("Add new cuisine", "Create")</p>
+  <p>@Html.ActionLink("Home", "Index", "Home")</p>
+</div>

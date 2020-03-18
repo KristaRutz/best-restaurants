@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+@model BestRestaurant.Models.Review
+
+<h2>Are you sure you want to delete this review?</h2>
+
+@Html.DisplayNameFor(model => model.Author): @Html.DisplayFor(model => model.Author)
+
+@Html.DisplayNameFor(model => model.Comment): @Html.DisplayFor(model => model.Comment)
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="Delete" />
+}
+@Html.ActionLink("Cancel", "Details", "Restaurants")
