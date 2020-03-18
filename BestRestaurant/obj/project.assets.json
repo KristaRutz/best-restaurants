@@ -12160,11 +12160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/best-restaurants/Project/Project.csproj",
-      "projectName": "Project",
-      "projectPath": "/Users/Guest/Desktop/best-restaurants/Project/Project.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/BestRestaurant.csproj",
+      "projectName": "BestRestaurant",
+      "projectPath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/BestRestaurant.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/best-restaurants/Project/obj/",
+      "outputPath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
