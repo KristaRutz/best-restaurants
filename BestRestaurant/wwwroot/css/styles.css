@@ -1,3 +1,18 @@
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  min-height: 60vh;
+  margin-bottom: 60px;
+}
+
 div#footer {
   position:fixed;
   bottom:0px;
