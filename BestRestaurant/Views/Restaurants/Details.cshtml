@@ -7,7 +7,7 @@
 
 <h1>Restaurant Details</h1>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 
 @if (@Model.Reviews.Count == 0)
 {
@@ -18,13 +18,13 @@
 
 @foreach (Review review in @Model.Reviews)
 {
-  <div id="review-@review.ReviewId">
-    <h4>@review.Author</h4>
-    <h5>@review.Timestamp</h5>
-    <p>@review.Comment</p>
+  <div class="review-item" id="review-@review.ReviewId">
+    <p class="review-header">@review.Author, on @review.Timestamp:</p>
+    <p class="review-body">@review.Comment</p>
   </div>
 }
 
 <p>@Html.ActionLink("Edit Restaurant", "Edit", new { id = Model.RestaurantId })</p>
 <p>@Html.ActionLink("Delete Restaurant", "Delete", new { id = Model.RestaurantId })</p>
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<p>@Html.ActionLink("Back to Restaurant list", "Index")</p>
+<p>@Html.ActionLink("Back to Cuisine List", "Details", "Cuisines", new { id = Model.CuisineId })</p>

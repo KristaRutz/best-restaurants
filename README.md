@@ -28,6 +28,11 @@
 ---
 ## Description
 
+#### 3/18 Work from Home Summary
+- To Do List Edit and Delete with Entity
+- Best Restaurants
+- Struggles: Printing list of items on the category's detail page, Routing with id numbers for views for reviews/object types passed between different controllers and views, adding review to restaurant and returning to restaurant details page
+
 _README under construction_
 <!-- _Detailed desc w/ purpose/usage, what does, motivation to create, why exists, other info for users/developers to have_ -->
 

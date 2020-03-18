@@ -38,3 +38,19 @@ div#footer {
   padding:8px;
   text-align: center;
 }
+
+.review-item{
+  margin: 20px;
+  color: #333;
+}
+
+.review-header {
+  padding: 6px;
+}
+
+.review-body {
+  font-family: 'Abel';
+  padding: 6px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
