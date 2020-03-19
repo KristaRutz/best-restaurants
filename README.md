@@ -41,6 +41,9 @@ This application makes use of a fully functioning front end website with forms a
   - MySQL database construction and manipulation
   - Entity Framework Viewbag and Helper functions - further exploration
   - Finished README for all sections
+- Help other classmates with coding issues
+- Technical Interview Practice Questions
+  - In depth review of terminology and concepts
 - Whiteboarding
 - Struggles:
   - Requiring pure HTML instead of Helper functions to correctly bind values
