@@ -6,7 +6,7 @@
 @using System
 @model BestRestaurant.Models.Review
 
-<h4>Add a new review</h4>
+<h3>Add a new review</h3>
 
 @using (Html.BeginForm())
 {
@@ -22,7 +22,7 @@
     <br><br>
 
     @Html.LabelFor(model => model.Comment)
-    @Html.TextAreaFor(model => model.Comment, new { @required = "required"})
+    @Html.TextAreaFor(model => model.Comment, new { @required = "required", @maxlength = "255", @rows = "5", @cols = "50"})
     <br><br>
 
     @Html.Label("Rating from 1-5 (with 5 as the highest)")
