@@ -1,1 +1,36 @@
-<p>edit review</p>
+@{
+  Layout = "_Layout";
+}
+
+@using BestRestaurant.Models
+@using System
+@model BestRestaurant.Models.Review
+
+<h3>Edit review for @ViewBag.RestaurantName</h3>
+
+@using (Html.BeginForm())
+{
+    <input type="hidden" value="@DateTime.Now" name="TimeCreated">
+    
+    @Html.HiddenFor(model => model.RestaurantId)
+    @Html.HiddenFor(model => model.Restaurant)
+    @Html.HiddenFor(model => model.ReviewId)
+
+    @Html.LabelFor(model => model.Author)
+    @Html.EditorFor(model => model.Author, new { @Value = "Anonymous"})
+    @* <input type="text" value="Anonymous" name="Author"> *@
+    <br><br>
+
+    @Html.LabelFor(model => model.Comment)
+    @Html.TextAreaFor(model => model.Comment, new { @required = "required"})
+    <br><br>
+
+    @Html.Label("Rating from 1-5 (with 5 as the highest)")
+    @Html.EditorFor(model => model.Rating, new { @type = "number", @min = 1, @max = 5})
+    <br><br>
+
+    <input type="submit" value="Submit editted review" class="btn btn-default"/>
+}
+
+<p>@Html.ActionLink("Back to Restaurant Details", "Details", "Restaurants", new { id = Model.RestaurantId})</p>
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>

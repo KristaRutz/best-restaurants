@@ -40,7 +40,7 @@ namespace BestRestaurant.Controllers
     {
       Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
 
-      thisRestaurant.Reviews = _db.Reviews.Where(review => review.RestaurantId == id).ToList();
+      thisRestaurant.Reviews = _db.Reviews.Where(review => review.RestaurantId == id).OrderByDescending(review => review.TimeCreated).ToList();
 
       return View(thisRestaurant);
     }
@@ -49,6 +49,7 @@ namespace BestRestaurant.Controllers
     {
       var thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
       ViewBag.CuisineId = new SelectList(_db.Cuisines, "CuisineId", "Name");
+      ViewBag.RestaurantId = id;
       return View(thisRestaurant);
     }
 

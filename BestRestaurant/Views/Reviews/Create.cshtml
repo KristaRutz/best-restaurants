@@ -17,7 +17,8 @@
     @Html.HiddenFor(model => model.ReviewId)
 
     @Html.LabelFor(model => model.Author)
-    @Html.TextBoxFor(model => model.Author, new { @placeholder = "Anonymous"})
+    @* @Html.TextBoxFor(model => model.Author, new { @Value = "Anonymous"}) *@
+    <input type="text" value="Anonymous" name="Author">
     <br><br>
 
     @Html.LabelFor(model => model.Comment)

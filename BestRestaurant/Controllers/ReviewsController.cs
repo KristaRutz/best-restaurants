@@ -20,7 +20,6 @@ namespace BestRestaurant.Controllers
     public ActionResult Create(int restaurantId)
     {
 			Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == restaurantId);
-      Console.WriteLine(restaurantId);
 			ViewBag.RestaurantId = restaurantId;
       return View();
     }
@@ -35,19 +34,26 @@ namespace BestRestaurant.Controllers
 
     public ActionResult Edit(int id)
     {
-      return View();
+      var thisReview = _db.Reviews.FirstOrDefault(reviews => reviews.ReviewId == id);
+      var thisRestaurant = _db.Restaurants.FirstOrDefault(restaurant => restaurant.RestaurantId == thisReview.RestaurantId);
+      ViewBag.RestaurantName = thisRestaurant.Name;
+      return View(thisReview);
     }
 
     [HttpPost]
     public ActionResult Edit(Review review)
     {
-      return View();
+      _db.Entry(review).State = EntityState.Modified;
+      _db.SaveChanges();
+      return RedirectToAction("Details", "Restaurants", new { id = review.RestaurantId});
     }
 
     public ActionResult Delete(int id)
     {
-        var thisReview = _db.Reviews.FirstOrDefault(reviews => reviews.ReviewId == id);
-      return View();
+      var thisReview = _db.Reviews.FirstOrDefault(reviews => reviews.ReviewId == id);
+      var thisRestaurant = _db.Restaurants.FirstOrDefault(restaurant => restaurant.RestaurantId == thisReview.RestaurantId);
+      ViewBag.RestaurantName = thisRestaurant.Name;
+      return View(thisReview);
     }
 
     [HttpPost, ActionName("Delete")]
