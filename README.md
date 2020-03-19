@@ -1,6 +1,6 @@
 # _[Best Restaurants](https://github.com/KristaRutz/best-restaurants)_
 
-#### _Brief desc of Project, 03.18.2020_
+#### _Brief desc of Project, 03.19.2020_
 
 #### By _**Tiffany Siu and Krista Rutz**_
 
@@ -28,8 +28,16 @@
 
 #### 3/19 Work from Home Summary
 - Best Restaurants
+  - Implement styling with custom CSS and HTML partials
+  - Develop Edit() and Delete() functionality for Reviews
+  - Attach reviews to specific restaurants ONLY - no index.
+  - MySQL database construction and manipulation
+  - Entity Framework Viewbag and Helper functions - further exploration
 - Struggles:
-  - 
+  - Requiring pure HTML instead of Helper functions to correctly bind values
+  - Implementing timestamps as auto-generated values
+  - Transferring data between controllers, which broke when we tried to link through a ```<button>``` rather than ```<p>``` tag.
+
 
 #### 3/18 Work from Home Summary
 - To Do List Edit and Delete with Entity
@@ -45,23 +53,37 @@ _README under construction_
 
 ## Setup/Installation Requirements
 
+Download or clone the repository to run this program locally!
+
+_This program requires .NET Core SDK to run. [Here is a free tutorial](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net) for installing .NET on Mac or Windows 10._ 
+
+_This program also makes use of SQL databases. We recommend using MySQL Workbench to build your databases. [Here is a free tutorial](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql) for installing MySQL WorkBench and MySQL Community Server on Mac or Windows 10._
+
 ### Requirements to Run
 * _.NET Core_
 * _ASP.NET Core MVC_
 * _Entity Framework_
+* _MySQL Workbench_
 * _Command Prompt_
 * _Web Browser_
 
 ### Instructions
 
-*This page may be viewed by:*
+*This application may be viewed by doing the following steps:*
 
-1. Download and install .NET Core from the [official website](https://dotnet.microsoft.com/download/dotnet-core/)
-2. Clone the [repository](https://github.com/KristaRutz/best-restaurants.git) from my [GitHub page](https://github.com/KristaRutz)
-3. Use a command line interface to move to the repository's directory with `cd BestRestaurant`
-4. Run `dotnet restore` and `dotnet build` in command line interface of the repository's directory
-5. Run `dotnet run` to start up the program in the command line interface
-6. Type the URL listed under "Now listening on:" into a web browser 
+- Download or clone this repo.
+  - **To Download ZIP:**
+    - Select "Download" on the [GitHub Repository](https://github.com/KristaRutz/best-restaurants) site
+    - Once downloaded, open the ZIP and extract files. The new folder will be created as 'best-restaurants'.
+  - **To Clone:**
+    - Clone from command line into your Desktop: `$ git clone https://github.com/KristaRutz/best-restaurants.git`
+    - The new directory will be created as 'Desktop/best-restaurants'.
+- Construct your databases using `best-restaurants/best_restaurant_structure.sql` (or `best-restaurants/best_restaurant_structure_and_data.sql` for databases with prefilled cuisines, restaurants, and review data). You may simply import this file into your MySQL workbench or follow the command line instructions in `DatabaseConstruction.txt`.
+- Once you have stored the files locally, execute the following commands.
+  - Navigate to the application directory: `$ cd best-restaurants/BestRestaurant`
+  - `dotnet build`
+  - `dotnet run`
+- Type the URL listed under "Now listening on:" into a web browser. Upon success, the program will begin running in your browser.
 
 ## Other Technologies Used
 * _C#_
@@ -69,7 +91,6 @@ _README under construction_
 * _CSS_
 * _MSTest_
 * _Razor_
-* _MySQL Workbench_
 * _Markdown_
 
 ## Notable Features
@@ -92,15 +113,15 @@ _README under construction_
 
 ## Screenshots
 
-<!-- _Here is a snippet of what the input looks like:_
+_Here is a snippet of what the cuisine list looks like:_
 
-![Snippet of input fields](img/snippet1.png)
+![Snippet of cuisine list](img/cuisine-list.png)
 
-_Here is a preview of what the output looks like:_
+_Here is a preview of what restaurant detail page looks like:_
 
-![Snippet of output box](img/snippet2.png) -->
+![Snippet of restaurant detail](img/thai-cottage-detail.png) -->
 
-<!-- _{Show pictures using ![alt text](image.jpg), show what library does as concisely as possible but don't need to explain how project solves problem from `code`_ -->
+<!-- _{Show pictures using ![alt text](image.jpg), show what library does as concisely as possible but don't need to explain how project solves problem from `code`_
 
 ## Known Bugs
 
