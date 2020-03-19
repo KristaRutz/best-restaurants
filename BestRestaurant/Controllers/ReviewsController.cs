@@ -17,12 +17,11 @@ namespace BestRestaurant.Controllers
       _db = db;
     }
 
-    public ActionResult Create(int id)
+    public ActionResult Create(int restaurantId)
     {
-			Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
-
-			ViewBag.RestaurantId = id;
-			ViewBag.Restaurant = thisRestaurant;
+			Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == restaurantId);
+      Console.WriteLine(restaurantId);
+			ViewBag.RestaurantId = restaurantId;
       return View();
     }
 
@@ -31,7 +30,7 @@ namespace BestRestaurant.Controllers
     {
       _db.Reviews.Add(review);
       _db.SaveChanges();
-      return RedirectToAction("Index", "Restaurants");
+      return RedirectToAction("Details", "Restaurants", new { id = review.RestaurantId});
     }
 
     public ActionResult Edit(int id)

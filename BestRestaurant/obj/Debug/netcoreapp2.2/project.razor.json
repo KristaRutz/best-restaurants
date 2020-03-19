@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Project.csproj",
+  "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/BestRestaurant.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,66 +2958,81 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "Project",
+  "RootNamespace": "BestRestaurant",
   "Documents": [
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Categories/Index.cshtml",
-      "TargetPath": "Views\\Categories\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Items/Details.cshtml",
-      "TargetPath": "Views\\Items\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Categories/Create.cshtml",
-      "TargetPath": "Views\\Categories\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Shared/_Layout.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Categories/Delete.cshtml",
-      "TargetPath": "Views\\Categories\\Delete.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Reviews/Delete.cshtml",
+      "TargetPath": "Views\\Reviews\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Home/Index.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Reviews/Create.cshtml",
+      "TargetPath": "Views\\Reviews\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Cuisines/Details.cshtml",
+      "TargetPath": "Views\\Cuisines\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Cuisines/Index.cshtml",
+      "TargetPath": "Views\\Cuisines\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Cuisines/Delete.cshtml",
+      "TargetPath": "Views\\Cuisines\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Restaurants/Edit.cshtml",
+      "TargetPath": "Views\\Restaurants\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Restaurants/Create.cshtml",
+      "TargetPath": "Views\\Restaurants\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Reviews/Edit.cshtml",
+      "TargetPath": "Views\\Reviews\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Categories/Edit.cshtml",
-      "TargetPath": "Views\\Categories\\Edit.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Restaurants/Index.cshtml",
+      "TargetPath": "Views\\Restaurants\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Items/Edit.cshtml",
-      "TargetPath": "Views\\Items\\Edit.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Restaurants/Delete.cshtml",
+      "TargetPath": "Views\\Restaurants\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Items/Index.cshtml",
-      "TargetPath": "Views\\Items\\Index.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Cuisines/Create.cshtml",
+      "TargetPath": "Views\\Cuisines\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Items/Create.cshtml",
-      "TargetPath": "Views\\Items\\Create.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Restaurants/Details.cshtml",
+      "TargetPath": "Views\\Restaurants\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Items/Delete.cshtml",
-      "TargetPath": "Views\\Items\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/Guest/Desktop/best-restaurants/Project/Views/Categories/Details.cshtml",
-      "TargetPath": "Views\\Categories\\Details.cshtml",
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Cuisines/Edit.cshtml",
+      "TargetPath": "Views\\Cuisines\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

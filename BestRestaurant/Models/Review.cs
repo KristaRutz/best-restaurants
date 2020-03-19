@@ -7,8 +7,8 @@ namespace BestRestaurant.Models
         public string Author {get; set;}
         public int ReviewId {get;set;}
         public int RestaurantId {get;set;}
-
-        public DateTime Timestamp {get;set;}
+        // [Timestamp]
+        public DateTime TimeCreated {get;set;}
         public virtual Restaurant Restaurant {get;set;}
         public int Rating { get; set;}
     }
