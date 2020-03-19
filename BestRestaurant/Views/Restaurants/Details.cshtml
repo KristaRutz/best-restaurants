@@ -14,11 +14,11 @@
   <p>No reviews found for this restaurant.</p>
 }
 
-<p>@Html.ActionLink("Add a Review", "Create", "Reviews", new { restaurantId = Model.RestaurantId })</p>
-
+<p class="btn btn-light">@Html.ActionLink("Add a Review", "Create", "Reviews", new { restaurantId = Model.RestaurantId })</p>
+<div class="row">
 @foreach (Review review in @Model.Reviews)
 {
-  <div class="review-item" id="review-@review.ReviewId">
+  <div class="review-item col-md-5" id="review-@review.ReviewId">
     <p class="review-header">@review.Author, on @review.TimeCreated:</p>
     @if(@review.Rating == 0)
     {
@@ -26,13 +26,14 @@
     }
     else
     {
-      <p>Rating: @review.Rating /5</p>
+      <p>Rating: @review.Rating/5</p>
     }
     <p class="review-body">@review.Comment</p>
     <p>@Html.ActionLink("Edit", "Edit", "Reviews", new { id = review.ReviewId }) 
     @Html.ActionLink("Delete", "Delete", "Reviews", new { id = review.ReviewId })</p>
   </div>
 }
+</div>
 
 <p>@Html.ActionLink("Edit Restaurant", "Edit", new { id = Model.RestaurantId })</p>
 <p>@Html.ActionLink("Delete Restaurant", "Delete", new { id = Model.RestaurantId })</p>

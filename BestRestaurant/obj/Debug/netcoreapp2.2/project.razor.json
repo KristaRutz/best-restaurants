@@ -3021,6 +3021,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Shared/Footer.cshtml",
+      "TargetPath": "Views\\Shared\\Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Guest/Desktop/best-restaurants/BestRestaurant/Views/Cuisines/Create.cshtml",
       "TargetPath": "Views\\Cuisines\\Create.cshtml",
       "FileKind": "mvc"
