@@ -12,19 +12,26 @@
 ---
 ## Table of Contents
 1. [Description](#description)
+    - [3/19 Work from Home Summary](#3/19-Work-from-Home-Summary)
+    - [3/18 Work from Home Summary](#3/18-Work-from-Home-Summary)
 2. [Setup/Installation Requirements](#setup/installation-requirements)
     - [Requirements to Run](#requirements-to-run)
     - [Instructions](#instructions)
     - [Other Technologies Used](#other-technologies-used)
 3. [Notable Features](#notable-features)
 4. [Specifications](#specifications)
-5. [User Stories](#user-stories)
-6. [Screenshots](#screenshots)
+5. [Screenshots](#screenshots)
 7. [Known Bugs](#known-bugs)
 8. [Support and Contact Details](#support-and-contact-details)
 9. [License](#license)
 ---
 ## Description
+
+Track your favorite restaurants of any cuisine you like to eat!
+
+This application allows a user to keep track of inputted cuisines, restaurants, and reviews. Each of these 3 types of inputs are stored in a database, and can be edited or deleted. Reviews are associated with a specific restaurant, and restaurants are tied to one cuisine, but there is no limit to the amount of cuisines, reviews, or restaurants that a user can make.
+
+This application makes use of a fully functioning front end website with forms and menus for the user to interact with.
 
 #### 3/19 Work from Home Summary
 - Best Restaurants
@@ -33,6 +40,8 @@
   - Attach reviews to specific restaurants ONLY - no index.
   - MySQL database construction and manipulation
   - Entity Framework Viewbag and Helper functions - further exploration
+  - Finished README for all sections
+- Whiteboarding
 - Struggles:
   - Requiring pure HTML instead of Helper functions to correctly bind values
   - Implementing timestamps as auto-generated values
@@ -47,9 +56,6 @@
   - Routing with id numbers for views for reviews/object types passed between different controllers and views
   - adding review to restaurant and returning to restaurant details page
   - Networking error? Things not adding to database, then appeared all at once
-
-_README under construction_
-<!-- _Detailed desc w/ purpose/usage, what does, motivation to create, why exists, other info for users/developers to have_ -->
 
 ## Setup/Installation Requirements
 
@@ -94,22 +100,25 @@ _This program also makes use of SQL databases. We recommend using MySQL Workbenc
 * _Markdown_
 
 ## Notable Features
-<!-- _features that make project stand out_ -->
+This project shows a nicely styled application using a database with objects within objects within objects (Reviews within Restaurants within Cuisines).  Routing between pages is intuitive and comprehensive for ease of movement between pages.
 
 ## Specifications
 
-<!-- * _List of features the program should do, from simplest to more complex, handling all possible cases.  Can do as text or put in table, with example input and output_
-  * _Example Input: expected input_
-  * _Example Output: expected output_
- -->
+- Create a website where users can add their favorite restaurants based on the type of cuisine they offer.
 
-## User Stories
+- Add a Cuisine class. Build out all CRUD functionality (Create, Read, Update, Delete) for this class. Remember that "Read" means to view a particular cuisine and to list out all of the cuisines.
 
-<!-- * As a scheduler, I want to be able to organize nurses vacation schedules without much paperwork so that I can be more efficient.
-* As a scheduler, I want to see a list of requests with the overlapping dates and the nurses that sent in the requests organized by priority so I can see which staff member should have priority in getting the request approved. -->
+- Add a Restaurant class. Build out all CRUD functionality for this class.
 
-<!-- * Give stories for people who will use this project and what they'd want it to do.  Can include customers/end users, programmers that maintain code, etc. Use "As a <job title/type of user/etc>, I want to...<what want program to achieve>... so that I can...<reason>.-->
+- Add properties other than name to your Restaurant class so that you can display descriptive information about the restaurants.
 
+- Make the connection between a cuisine and a restaurant in the database. A cuisine can have many restaurants, but a restaurant can only be attached to one cuisine.
+
+- Allow a user to search for all of a cuisine's restaurants.
+
+- Build out a Review class and make the relationship in the database so that a restaurant has many reviews. Pretend that the users who are reviewing the website are different from the user who added the restaurant.
+
+- Display all of the reviews at the bottom of the restaurant's page.
 
 ## Screenshots
 
@@ -119,9 +128,7 @@ _Here is a snippet of what the cuisine list looks like:_
 
 _Here is a preview of what restaurant detail page looks like:_
 
-![Snippet of restaurant detail](img/thai-cottage-detail.png) -->
-
-<!-- _{Show pictures using ![alt text](image.jpg), show what library does as concisely as possible but don't need to explain how project solves problem from `code`_
+![Snippet of restaurant detail](img/thai-cottage-detail.png)
 
 ## Known Bugs
 
